@@ -4,14 +4,14 @@
             {
                 "camadadeozonio": {
                     "classic": {
-                        "classic": 965,
+                        "classic": 973,
                         "best_classic": 1097,
-                        "difference": -132,
+                        "difference": -124,
                         "record": {
-                            "wins": 1318,
+                            "wins": 1319,
                             "losses": 1236,
                             "draws": 70,
-                            "win_loss_diff": 82
+                            "win_loss_diff": 83
                         }
                     },
                     "blitz": {

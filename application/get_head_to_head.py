@@ -1,26 +1,12 @@
-import requests
 from collections import defaultdict
-from infrastructure.headers import HEADERS
-
-def get_archives(username):
-    url = f'https://api.chess.com/pub/player/{username}/games/archives'
-    response = requests.get(url, headers=HEADERS)
-    if response.status_code == 200:
-        return response.json().get('archives', [])
-    return []
-
-def get_games(archive_url):
-    response = requests.get(archive_url, headers=HEADERS)
-    if response.status_code == 200:
-        return response.json().get('games', [])
-    return []
+from infrastructure.chess_api import get_archives, get_games_from_archive
 
 def get_all_head_to_head(players):
     stats = defaultdict(lambda: defaultdict(lambda: {'wins': 0, 'losses': 0, 'draws': 0}))
     for player in players:
         archives = get_archives(player)
         for archive in archives:
-            games = get_games(archive)
+            games = get_games_from_archive(archive)
             for game in games:
                 white = game['white']['username'].lower()
                 black = game['black']['username'].lower()
