@@ -1,19 +1,16 @@
 import json
-from infrastructure.player_stats_api import Api
-from application.get_rank import ChessStats
+from helpers.data_loader import load_players
+from application.get_rank import get_all_ranks
+from application.get_head_to_head import get_all_head_to_head
 
+players = load_players()
 
-with open('players.txt', 'r', encoding='utf-8') as file:
-    players = file.read().splitlines()
-    
-all_ranks = []
+output = {
+    "chess_com": {
+        "players_rank": get_all_ranks(players),
+        "head_to_head": get_all_head_to_head(players)
+    }
+}
 
-for player in players:
-    dados = Api(player).get_status()
-    rank = ChessStats(player, dados)
-    rank = rank.get_actual_rank()
-    all_ranks.append(rank)
-
-    
-    with open('rank.json', 'w') as file:
-            json.dump(all_ranks, file, indent=4)
+with open('data/rank.json', 'w', encoding='utf-8') as file:
+    json.dump(output, file, indent=4)
