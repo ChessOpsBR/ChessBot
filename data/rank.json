@@ -1,0 +1,251 @@
+{
+    "chess_com": {
+        "players_rank": [
+            {
+                "camadadeozonio": {
+                    "classic": {
+                        "classic": 973,
+                        "best_classic": 1097,
+                        "difference": -124,
+                        "record": {
+                            "wins": 1319,
+                            "losses": 1236,
+                            "draws": 70,
+                            "win_loss_diff": 83
+                        }
+                    },
+                    "blitz": {
+                        "blitz": 751,
+                        "best_blitz": 832,
+                        "difference": -81,
+                        "record": {
+                            "wins": 406,
+                            "losses": 381,
+                            "draws": 26,
+                            "win_loss_diff": 25
+                        }
+                    },
+                    "bullet": {
+                        "bullet": 553,
+                        "best_bullet": 1020,
+                        "difference": -467,
+                        "record": {
+                            "wins": 96,
+                            "losses": 96,
+                            "draws": 4,
+                            "win_loss_diff": 0
+                        }
+                    }
+                }
+            },
+            {
+                "xn0kkx": {
+                    "classic": {
+                        "classic": 358,
+                        "best_classic": 704,
+                        "difference": -346,
+                        "record": {
+                            "wins": 3,
+                            "losses": 9,
+                            "draws": 1,
+                            "win_loss_diff": -6
+                        }
+                    },
+                    "blitz": {
+                        "blitz": 0,
+                        "best_blitz": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    },
+                    "bullet": {
+                        "bullet": 0,
+                        "best_bullet": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    }
+                }
+            },
+            {
+                "rafamotaz": {
+                    "classic": {
+                        "classic": 402,
+                        "best_classic": 787,
+                        "difference": -385,
+                        "record": {
+                            "wins": 2,
+                            "losses": 7,
+                            "draws": 0,
+                            "win_loss_diff": -5
+                        }
+                    },
+                    "blitz": {
+                        "blitz": 0,
+                        "best_blitz": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    },
+                    "bullet": {
+                        "bullet": 0,
+                        "best_bullet": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    }
+                }
+            },
+            {
+                "pampampepe": {
+                    "classic": {
+                        "classic": 173,
+                        "best_classic": 400,
+                        "difference": -227,
+                        "record": {
+                            "wins": 4,
+                            "losses": 15,
+                            "draws": 5,
+                            "win_loss_diff": -11
+                        }
+                    },
+                    "blitz": {
+                        "blitz": 0,
+                        "best_blitz": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    },
+                    "bullet": {
+                        "bullet": 0,
+                        "best_bullet": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    }
+                }
+            },
+            {
+                "joaovictorf01": {
+                    "classic": {
+                        "classic": 101,
+                        "best_classic": 0,
+                        "difference": 101,
+                        "record": {
+                            "wins": 0,
+                            "losses": 3,
+                            "draws": 1,
+                            "win_loss_diff": -3
+                        }
+                    },
+                    "blitz": {
+                        "blitz": 0,
+                        "best_blitz": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    },
+                    "bullet": {
+                        "bullet": 0,
+                        "best_bullet": 0,
+                        "difference": 0,
+                        "record": {
+                            "wins": 0,
+                            "losses": 0,
+                            "draws": 0,
+                            "win_loss_diff": 0
+                        }
+                    }
+                }
+            }
+        ],
+        "head_to_head": {
+            "camadadeozonio": {
+                "rafamotaz": {
+                    "wins": 1,
+                    "losses": 0,
+                    "draws": 2
+                },
+                "xn0kkx": {
+                    "wins": 4,
+                    "losses": 0,
+                    "draws": 0
+                },
+                "pampampepe": {
+                    "wins": 4,
+                    "losses": 12,
+                    "draws": 0
+                }
+            },
+            "rafamotaz": {
+                "camadadeozonio": {
+                    "wins": 0,
+                    "losses": 1,
+                    "draws": 2
+                },
+                "xn0kkx": {
+                    "wins": 5,
+                    "losses": 3,
+                    "draws": 2
+                }
+            },
+            "xn0kkx": {
+                "camadadeozonio": {
+                    "wins": 0,
+                    "losses": 4,
+                    "draws": 0
+                },
+                "pampampepe": {
+                    "wins": 6,
+                    "losses": 0,
+                    "draws": 0
+                },
+                "rafamotaz": {
+                    "wins": 3,
+                    "losses": 5,
+                    "draws": 2
+                }
+            },
+            "pampampepe": {
+                "camadadeozonio": {
+                    "wins": 12,
+                    "losses": 4,
+                    "draws": 0
+                },
+                "xn0kkx": {
+                    "wins": 0,
+                    "losses": 6,
+                    "draws": 0
+                }
+            }
+        }
+    }
+}
