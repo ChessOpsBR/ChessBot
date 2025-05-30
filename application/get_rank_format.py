@@ -43,7 +43,7 @@ class ChessStats:
         Returns:
             dict: Player's ratings and records by format (classic, blitz, bullet).
         """
-        def get_rating(stats, key):
+        def get_rating(stats: dict, key: str) -> int:
             """Get the rating for a specific chess format.
 
             Args:
