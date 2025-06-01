@@ -2,15 +2,16 @@ from collections import defaultdict
 from infrastructure.chess_api import get_archives, get_games_from_archive
 
 def get_all_head_to_head(players: list) -> dict:
-    """Get head-to-head statistics between players.
+    """
+    Calculate head-to-head statistics between all players in the provided list.
 
     Args:
-        players (list): List of players usernames.
+        players (list): List of player usernames (all lowercase).
 
     Returns:
-        dict: A dictionary containing head-to-head statistics.
+        dict: A nested dictionary where each player maps to their opponents and the win/loss/draw counts.
     """
-    
+    # Initialize stats dictionary with default win/loss/draw structure
     stats = defaultdict(lambda: defaultdict(lambda: {'wins': 0, 'losses': 0, 'draws': 0}))
     for player in players:
         archives = get_archives(player)
