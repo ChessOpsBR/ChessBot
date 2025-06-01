@@ -73,8 +73,7 @@ class ChessStats:
         bullet = self.get_bullet()
 
         # Return the dictionary with ratings and records
-        return {
-            self.player_name: {
+        return  {
                 'classic': {
                     'current': get_rating(classic, 'last'),
                     'best': get_rating(classic, 'best'),
@@ -109,4 +108,3 @@ class ChessStats:
                     }
                 },
             }
-        }
