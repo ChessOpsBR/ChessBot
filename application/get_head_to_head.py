@@ -1,5 +1,5 @@
 from collections import defaultdict
-from infrastructure.chess_api import get_archives, get_games_from_archive
+from api.chess_api import get_archives, get_games_from_archive
 
 def get_all_head_to_head(players: list) -> dict:
     """

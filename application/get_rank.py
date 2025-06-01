@@ -1,7 +1,7 @@
 import os
 import json
 import time
-from infrastructure.player_stats_api import Api
+from api.player_stats_api import Api
 from application.get_rank_format import ChessStats
 
 FORCE_REFRESH = False  # Set to True to force update all players
