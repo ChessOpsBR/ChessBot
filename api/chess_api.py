@@ -1,5 +1,5 @@
 import requests
-from infrastructure.headers import HEADERS
+from api.headers import HEADERS
 
 def get_player_info(username: str) -> dict:
     """

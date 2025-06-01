@@ -1,4 +1,4 @@
-from infrastructure.chess_api import get_player_stats, get_player_info
+from api.chess_api import get_player_stats, get_player_info
 
 class Api:
     """
