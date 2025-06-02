@@ -1,20 +1,37 @@
 import os
 import json
-import time
 from api.player_stats_api import Api
 from application.get_rank_format import ChessStats
 
-FORCE_REFRESH = False  # Set to True to force update all players
 
-def get_all_ratings_summary(players: list) -> dict:
+def get_rank_json(players: list, refresh: bool = False) -> dict:
     """
-    Get the ratings summary of all the players in the list, updating only changed or missing entries.
+    Retrieve and update the ratings summary for all players in the provided list.
+
+    This function loads existing player ratings from 'data/rank.json' (if available),
+    fetches new data only for players who are missing or whose data needs to be refreshed,
+    and then saves the updated ratings summary back to the JSON file.
 
     Args:
-        players (list): List of player usernames.
+        players (list of str): List of player usernames (should be lowercase).
+            Example: ['player1', 'player2', 'player3']
+        refresh (bool, optional): If True, forces a refresh of the data for all players,
+            even if their data already exists in the JSON file. If False, only missing
+            players will be fetched and updated. Default is False.
 
     Returns:
-        dict: Dictionary of player ratings summaries.
+        dict: Dictionary of player ratings summaries, where each key is a player and the value is their ratings summary.
+            Example:
+            {
+                "player1": {
+                    "classic": {...},
+                    "blitz": {...},
+                    "bullet": {...}
+                },
+                "player2": {
+                    ...
+                }
+            }
     """
     # Load existing data if available
     rank_path = 'data/rank.json'
@@ -34,13 +51,12 @@ def get_all_ratings_summary(players: list) -> dict:
         existing_data["chess_com"]["players_ratings_summary"] = {}
 
     updated = False
-    now = int(time.time())
 
     # Update only missing or outdated players
     for player in players:
         if (
             player not in existing_data["chess_com"]["players_ratings_summary"]
-            or FORCE_REFRESH
+            or refresh
         ):
             data = Api(player).get_status()
             stats = ChessStats(player, data)

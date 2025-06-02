@@ -1,19 +1,25 @@
-import json
 from helpers.data_loader import load_players
-from application.get_rank import get_all_ratings_summary
+from application.get_rank import get_rank_json
+from application.get_head_to_head import get_head_to_head_json
 
 def main():
     """
-    Loads player usernames and updates chess ratings summary incrementally.
+    Loads player usernames from a text file and updates chess ratings summary and head-to-head statistics incrementally.
+    Also prints the execution time in seconds.
+
+    Steps:
+        1. Loads the list of player usernames from 'data/players.txt'.
+        2. Updates the ratings summary for each player, only fetching new or outdated data.
+        3. Updates the head-to-head statistics for each player, only fetching new or outdated data.
+        4. Print the total execution time.
     """
+    
     player_usernames = load_players()
 
-    # Get the updated ratings summary as a dictionary
-    players_ratings_summary = get_all_ratings_summary(player_usernames)
-
-    # Save the output to a JSON file (optional, since get_all_ratings_summary may already handle this)
-    with open('data/rank.json', 'w', encoding='utf-8') as file:
-        json.dump({"chess_com": {"players_ratings_summary": players_ratings_summary}}, file, indent=4)
+    # Update ratings summary and head-to-head statistics
+    get_rank_json(player_usernames)
+    get_head_to_head_json(player_usernames)
+    print('Data updated')
 
 if __name__ == "__main__":
     main()

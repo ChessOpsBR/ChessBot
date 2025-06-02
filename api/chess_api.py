@@ -10,6 +10,13 @@ def get_player_info(username: str) -> dict:
 
     Returns:
         dict: Player information as returned by the API, or an empty dict on error.
+            Example:
+            {
+                "username": "player1",
+                "player_id": 123456,
+                "title": "GM",
+                ...
+            }
     """
     url = f"https://api.chess.com/pub/player/{username}"
     try:
@@ -29,6 +36,13 @@ def get_player_stats(username: str) -> dict:
 
     Returns:
         dict: Player statistics as returned by the API, or an empty dict on error.
+            Example:
+            {
+                "chess_blitz": {...},
+                "chess_bullet": {...},
+                "chess_rapid": {...},
+                ...
+            }
     """
     url = f"https://api.chess.com/pub/player/{username}/stats"
     try:
@@ -44,10 +58,17 @@ def get_archives(username: str) -> list:
     Fetch the list of archive URLs for a player's games from the Chess.com API.
 
     Args:
-        username (str): The Chess.com username.
+        username (str): The Chess.com username. Must be a valid username as used on Chess.com.
 
     Returns:
-        list: List of archive URLs, or an empty list on error.
+        list: A list of URLs (strings), each pointing to a monthly archive of the player's games.
+            Returns an empty list if the user does not exist or an error occurs.
+            Example:
+            [
+                "https://api.chess.com/pub/player/player1/games/2024/01",
+                "https://api.chess.com/pub/player/player1/games/2024/02",
+                ...
+            ]
     """
     url = f'https://api.chess.com/pub/player/{username}/games/archives'
     try:
@@ -67,6 +88,17 @@ def get_games_from_archive(archive_url: str) -> list:
 
     Returns:
         list: List of games, or an empty list on error.
+            Example:
+            [
+                {
+                    "url": "...",
+                    "white": {...},
+                    "black": {...},
+                    "end_time": ...,
+                    ...
+                },
+                ...
+            ]
     """
     try:
         response = requests.get(archive_url, headers=HEADERS)

@@ -38,14 +38,14 @@
             },
             "xn0kkx": {
                 "classic": {
-                    "current": 319,
+                    "current": 287,
                     "best": 704,
-                    "difference": -385,
+                    "difference": -417,
                     "record": {
                         "wins": 17,
-                        "losses": 25,
+                        "losses": 29,
                         "draws": 3,
-                        "win_loss_diff": -8
+                        "win_loss_diff": -12
                     }
                 },
                 "blitz": {

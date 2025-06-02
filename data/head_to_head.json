@@ -18,23 +18,6 @@
                     "draws": 6
                 }
             },
-            "rafamotaz": {
-                "camadadeozonio": {
-                    "wins": 0,
-                    "losses": 1,
-                    "draws": 2
-                },
-                "xn0kkx": {
-                    "wins": 5,
-                    "losses": 3,
-                    "draws": 2
-                },
-                "pampampepe": {
-                    "wins": 0,
-                    "losses": 1,
-                    "draws": 0
-                }
-            },
             "xn0kkx": {
                 "camadadeozonio": {
                     "wins": 0,
@@ -49,6 +32,18 @@
                 "rafamotaz": {
                     "wins": 3,
                     "losses": 5,
+                    "draws": 2
+                }
+            },
+            "rafamotaz": {
+                "camadadeozonio": {
+                    "wins": 0,
+                    "losses": 1,
+                    "draws": 2
+                },
+                "xn0kkx": {
+                    "wins": 5,
+                    "losses": 3,
                     "draws": 2
                 }
             },
@@ -68,7 +63,10 @@
                     "losses": 0,
                     "draws": 0
                 }
-            }
+            },
+            "joaovictorf01": {},
+            "julia16bits": {},
+            "victorf01": {}
         }
     }
 }

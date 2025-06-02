@@ -1,20 +1,23 @@
 .
+├── api
+│   ├── chess_api.py
+│   ├── headers.py
+│   ├── lichess_api.py
+│   └── player_stats_api.py
 ├── application
-│   ├── get_head_to_head.py
-│   ├── get_rank_format.py
-│   └── get_rank.py
+│   ├── get_head_to_head.py
+│   ├── get_rank_format.py
+│   └── get_rank.py
 ├── data
-│   ├── players.txt
-│   └── rank.json
+│   ├── head_to_head.json
+│   ├── players.txt
+│   └── rank.json
 ├── helpers
-│   └── data_loader.py
-├── infrastructure
-│   ├── chess_api.py
-│   ├── headers.py
-│   ├── lichess_api.py
-│   └── player_stats_api.py
+│   ├── data_loader.py
+│   └── json_utils.py
 ├── main.py
 ├── README.md
+├── requirements.txt
 └── tree.txt
 
-5 directories, 13 files
+5 directories, 16 files
