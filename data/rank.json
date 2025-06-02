@@ -1,259 +1,249 @@
 {
     "chess_com": {
-        "players_ratings_summary": [
-            {
-                "camadadeozonio": {
-                    "classic": {
-                        "current": 958,
-                        "best": 1097,
-                        "difference": -139,
-                        "record": {
-                            "wins": 1320,
-                            "losses": 1239,
-                            "draws": 70,
-                            "win_loss_diff": 81
-                        }
-                    },
-                    "blitz": {
-                        "current": 751,
-                        "best": 832,
-                        "difference": -81,
-                        "record": {
-                            "wins": 406,
-                            "losses": 381,
-                            "draws": 26,
-                            "win_loss_diff": 25
-                        }
-                    },
-                    "bullet": {
-                        "current": 580,
-                        "best": 1020,
-                        "difference": -440,
-                        "record": {
-                            "wins": 97,
-                            "losses": 96,
-                            "draws": 4,
-                            "win_loss_diff": 1
-                        }
-                    }
-                }
-            },
-            {
-                "xn0kkx": {
-                    "classic": {
-                        "current": 292,
-                        "best": 704,
-                        "difference": -412,
-                        "record": {
-                            "wins": 8,
-                            "losses": 19,
-                            "draws": 2,
-                            "win_loss_diff": -11
-                        }
-                    },
-                    "blitz": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    },
-                    "bullet": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    }
-                }
-            },
-            {
-                "rafamotaz": {
-                    "classic": {
-                        "current": 342,
-                        "best": 787,
-                        "difference": -445,
-                        "record": {
-                            "wins": 2,
-                            "losses": 8,
-                            "draws": 0,
-                            "win_loss_diff": -6
-                        }
-                    },
-                    "blitz": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    },
-                    "bullet": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    }
-                }
-            },
-            {
-                "pampampepe": {
-                    "classic": {
-                        "current": 162,
-                        "best": 400,
-                        "difference": -238,
-                        "record": {
-                            "wins": 6,
-                            "losses": 19,
-                            "draws": 6,
-                            "win_loss_diff": -13
-                        }
-                    },
-                    "blitz": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    },
-                    "bullet": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    }
-                }
-            },
-            {
-                "joaovictorf01": {
-                    "classic": {
-                        "current": 101,
-                        "best": 0,
-                        "difference": 101,
-                        "record": {
-                            "wins": 0,
-                            "losses": 3,
-                            "draws": 1,
-                            "win_loss_diff": -3
-                        }
-                    },
-                    "blitz": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    },
-                    "bullet": {
-                        "current": 0,
-                        "best": 0,
-                        "difference": 0,
-                        "record": {
-                            "wins": 0,
-                            "losses": 0,
-                            "draws": 0,
-                            "win_loss_diff": 0
-                        }
-                    }
-                }
-            }
-        ],
-        "head_to_head": {
+        "players_ratings_summary": {
             "camadadeozonio": {
-                "rafamotaz": {
-                    "wins": 1,
-                    "losses": 0,
-                    "draws": 2
+                "classic": {
+                    "current": 957,
+                    "best": 1097,
+                    "difference": -140,
+                    "record": {
+                        "wins": 1325,
+                        "losses": 1241,
+                        "draws": 72,
+                        "win_loss_diff": 84
+                    }
                 },
-                "xn0kkx": {
-                    "wins": 4,
-                    "losses": 0,
-                    "draws": 0
+                "blitz": {
+                    "current": 751,
+                    "best": 832,
+                    "difference": -81,
+                    "record": {
+                        "wins": 406,
+                        "losses": 381,
+                        "draws": 26,
+                        "win_loss_diff": 25
+                    }
                 },
-                "pampampepe": {
-                    "wins": 6,
-                    "losses": 14,
-                    "draws": 0
-                }
-            },
-            "rafamotaz": {
-                "camadadeozonio": {
-                    "wins": 0,
-                    "losses": 1,
-                    "draws": 2
-                },
-                "xn0kkx": {
-                    "wins": 5,
-                    "losses": 3,
-                    "draws": 2
-                },
-                "pampampepe": {
-                    "wins": 0,
-                    "losses": 1,
-                    "draws": 0
+                "bullet": {
+                    "current": 580,
+                    "best": 1020,
+                    "difference": -440,
+                    "record": {
+                        "wins": 97,
+                        "losses": 96,
+                        "draws": 4,
+                        "win_loss_diff": 1
+                    }
                 }
             },
             "xn0kkx": {
-                "camadadeozonio": {
-                    "wins": 0,
-                    "losses": 4,
-                    "draws": 0
+                "classic": {
+                    "current": 287,
+                    "best": 704,
+                    "difference": -417,
+                    "record": {
+                        "wins": 17,
+                        "losses": 29,
+                        "draws": 3,
+                        "win_loss_diff": -12
+                    }
                 },
-                "pampampepe": {
-                    "wins": 8,
-                    "losses": 0,
-                    "draws": 0
+                "blitz": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
                 },
-                "rafamotaz": {
-                    "wins": 3,
-                    "losses": 5,
-                    "draws": 2
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                }
+            },
+            "rafamotaz": {
+                "classic": {
+                    "current": 277,
+                    "best": 787,
+                    "difference": -510,
+                    "record": {
+                        "wins": 2,
+                        "losses": 10,
+                        "draws": 0,
+                        "win_loss_diff": -8
+                    }
+                },
+                "blitz": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                },
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
                 }
             },
             "pampampepe": {
-                "camadadeozonio": {
-                    "wins": 14,
-                    "losses": 6,
-                    "draws": 0
+                "classic": {
+                    "current": 123,
+                    "best": 400,
+                    "difference": -277,
+                    "record": {
+                        "wins": 13,
+                        "losses": 36,
+                        "draws": 8,
+                        "win_loss_diff": -23
+                    }
                 },
-                "xn0kkx": {
-                    "wins": 0,
-                    "losses": 8,
-                    "draws": 0
+                "blitz": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
                 },
-                "rafamotaz": {
-                    "wins": 1,
-                    "losses": 0,
-                    "draws": 0
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                }
+            },
+            "joaovictorf01": {
+                "classic": {
+                    "current": 101,
+                    "best": 0,
+                    "difference": 101,
+                    "record": {
+                        "wins": 0,
+                        "losses": 3,
+                        "draws": 1,
+                        "win_loss_diff": -3
+                    }
+                },
+                "blitz": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                },
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                }
+            },
+            "julia16bits": {
+                "classic": {
+                    "current": 326,
+                    "best": 337,
+                    "difference": -11,
+                    "record": {
+                        "wins": 73,
+                        "losses": 61,
+                        "draws": 5,
+                        "win_loss_diff": 12
+                    }
+                },
+                "blitz": {
+                    "current": 100,
+                    "best": 0,
+                    "difference": 100,
+                    "record": {
+                        "wins": 0,
+                        "losses": 3,
+                        "draws": 0,
+                        "win_loss_diff": -3
+                    }
+                },
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                }
+            },
+            "victorf01": {
+                "classic": {
+                    "current": 1128,
+                    "best": 1041,
+                    "difference": 87,
+                    "record": {
+                        "wins": 3,
+                        "losses": 0,
+                        "draws": 1,
+                        "win_loss_diff": 3
+                    }
+                },
+                "blitz": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
+                },
+                "bullet": {
+                    "current": 0,
+                    "best": 0,
+                    "difference": 0,
+                    "record": {
+                        "wins": 0,
+                        "losses": 0,
+                        "draws": 0,
+                        "win_loss_diff": 0
+                    }
                 }
             }
         }
