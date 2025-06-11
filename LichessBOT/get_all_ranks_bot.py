@@ -9,9 +9,7 @@ import os
 
 
 from get_all_ranks import get_all_ranks_lichess
-from get_all_ranks import multiple_players
 from get_all_ranks_Template import GetAllRanksTemplate
-import get_all_ranks_Template  
 
 
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
@@ -40,7 +38,7 @@ async def getAllRanks(ctx):
         initial_msg = await ctx.send(embed=embed)
         
         # Get player data
-        players = await get_all_ranks_lichess(multiple_players)
+        players = await get_all_ranks_lichess()
         
         if not players:
             await initial_msg.edit(content="No player data found.", embed=None)
